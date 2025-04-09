@@ -31,7 +31,7 @@ public class App : Application
         {
             var viewLocator = _provider?.GetRequiredService<IDataTemplate>();
             var mainViewModel = _provider?.GetRequiredService<SukiUIDemoViewModel>();
-            var mainView = _provider?.GetRequiredService<SukiUIDemoView>();
+            SukiUIDemoView? mainView = _provider?.GetRequiredService<SukiUIDemoView>();
             mainView.DataContext = mainViewModel;
             desktop.MainWindow = mainView;
         }

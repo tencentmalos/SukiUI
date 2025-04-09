@@ -49,7 +49,7 @@
         </Style>
 
         <Style Selector="suki|BusyArea[IsBusy=False] DockPanel#LoadingBusyArea">
-            <Setter Property="Opacity" Value="0" />
+            <Setter Property="Opacity" Value="0.0" />
         </Style>
 
         <Style Selector="suki|BusyArea ContentControl">
@@ -61,7 +61,7 @@
         </Style>
 
         <Style Selector="suki|BusyArea[IsBusy=True] ContentControl">
-            <Setter Property="Opacity" Value="0.1" />
+            <Setter Property="Opacity" Value="0.7" />
         </Style>
 
         <Style Selector="suki|BusyArea[IsBusy=False] ContentControl">
